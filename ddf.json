@@ -1,0 +1,84 @@
+{
+    "nodes": [
+        {
+            "name": "plain ddf",
+            "description": "Distributed Data Framework",
+            "configurations": [
+            ],
+            "applications": [
+              {
+		"priority":1,
+                "name": "oraclejdk",
+                "description": "Oracle Java Development Kit",
+                  "configurations": [
+                  ]
+              },
+              {
+		  "priority":10,
+                  "name": "ddf",
+                  "description": "Distributed Data Framework",
+                  "configurations": [
+                    {
+                        "name" : "package",
+                        "value" : "ddf",
+                        "description" : "Package Type"
+                    },
+                    {
+                        "name" : "version",
+                        "value" : "2.2.0",
+                        "description" : "Release Version"
+                    },
+                    {
+                        "name" : "java_home",
+                        "value" : "/usr/java/default",
+                        "description" : "Location of the Java Installation"
+                    },
+                    {
+                        "name" : "mvn_repos",
+                        "value" : [
+                          "http://artifacts.codice.org/content/repositories/releases/@id=codice-releases",
+                          "http://artifacts.codice.org/content/repositories/snapshots/@id=codice-snapshots"
+                        ],
+                        "description" : "remote repositories for installing features"
+                    },
+                    {
+                        "name" : "feature_repos",
+                        "value" : [
+                          "mvn:org.codice/opendx-features/1.0.1/xml/features"
+                        ],
+                        "description" : "maven url to a feature store front"
+                    },
+                    {
+                        "name" : "features",
+                        "value" : [
+                          "catalog-opensearch-source"
+                        ],
+                        "description" : "list of features to install"
+                    },
+                    {
+                        "name" : "opensearch_sources",
+                        "value" : [],
+                        "description" : "list of hosts to connect as opensearch endpoints"
+                    },
+                    {
+                        "name" : "ddf_host",
+                        "value" : "0.0.0.0",
+                        "description" : "hostname of this node"
+                    },
+                    {
+                        "name" : "ddf_port",
+                        "value" : "8181",
+                        "description" : "port used by this ddf node"
+                    },
+                    {
+                        "name" : "organization",
+                        "value" : "AirGap IT",
+                        "description" : "organization for DDF"
+                    }
+                  ],
+                  "flavorId": "2"
+                }
+            ]
+        }
+    ]
+}

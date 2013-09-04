@@ -1,0 +1,21 @@
+{
+  "applications" : [
+         {
+	     "priority":1,
+             "name": "ortelium",
+             "description": "Ortelium 2525 Iconography Server",
+             "configurations": [
+                 {
+                     "name" : "jetty_home",
+                     "value" : "/usr/local",
+                     "description" : "path to jetty install"
+                 },
+                 {
+                     "name" : "jetty_version",
+                     "value" : "7.4.2.v20110526",
+                     "description" : "version number for jetty to be installed"
+                 }
+             ]
+         }
+     ]
+}

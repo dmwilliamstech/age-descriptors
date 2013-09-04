@@ -1,0 +1,37 @@
+{
+  "applications" : [
+         {
+             "name": "jenkins::slave",
+             "description": "slave for jenkins work",
+             "priority": 1,
+             "configurations": [
+                 {
+                     "name" : "masterurl",
+                     "value" : "http://10.11.12.1:9999/",
+                     "description" : "url that jenkins is running on"
+                 },
+                 {
+                     "name" : "ui_user",
+                     "value" : "admin",
+                     "description" : "user to login to jenkins with"
+                 },
+                 {
+                     "name" : "ui_pass",
+                     "value" : "foobar99",
+                     "description" : "password for auth"
+                 },
+                 {
+                     "name" : "version",
+                     "value" : "1.9",
+                     "description" : "swarm client version"
+                 },
+                 {
+                     "name" : "labels",
+                     "value" : "",
+                     "description" : "space seperated list of labels"
+                 }
+             ],
+			 "flavorId": "2"
+         }
+     ]
+}
