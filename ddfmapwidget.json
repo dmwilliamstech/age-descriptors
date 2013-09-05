@@ -1,0 +1,36 @@
+{
+  "applications" : [
+         {
+	     "priority":1,
+             "name": "ddfmapwidget",
+             "description": "Deploy a simple OWF widget for demonstrating DDF.",
+             "configurations": [
+                 {
+                     "name" : "user",
+                     "value" : "testAdmin1",
+                     "description" : "User required to install a widget in OWF server."
+                 },
+                 {
+                     "name" : "home",
+                     "value" : "/opt/ozone",
+                     "description" : "Default location of the OWF install."
+                 }
+                 {
+                     "name" : "hostname",
+                     "value" : "owf",
+                     "description" : "Default hostname of the OWF server."
+                 }
+                 {
+                     "name" : "port",
+                     "value" : "443",
+                     "description" : "Default port of the OWF server."
+                 }
+                 {
+                     "name" : "ver",
+                     "value" : "0.0.1",
+                     "description" : "Default version of the ddfmapwidget."
+                 }
+             ]
+         }
+     ]
+}
