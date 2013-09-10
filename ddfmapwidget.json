@@ -14,17 +14,17 @@
                      "name" : "home",
                      "value" : "/opt/ozone",
                      "description" : "Default location of the OWF install."
-                 }
+                 },
                  {
                      "name" : "hostname",
                      "value" : "owf",
                      "description" : "Default hostname of the OWF server."
-                 }
+                 },
                  {
                      "name" : "port",
                      "value" : "443",
                      "description" : "Default port of the OWF server."
-                 }
+                 },
                  {
                      "name" : "ver",
                      "value" : "0.0.1",
