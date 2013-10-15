@@ -44,7 +44,7 @@
                     {
                         "name" : "feature_repos",
                         "value" : [
-                          "mvn:org.codice/opendx-features/1.8/xml/features"
+                          "mvn:org.codice/opendx-features/1.9/xml/features"
                         ],
                         "description" : "maven url to a feature store front"
                     },
