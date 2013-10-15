@@ -31,7 +31,7 @@
                      "description" : "space seperated list of labels"
                  }
              ],
-			 "flavorId": "2"
+             "flavorId": "medium"
          }
      ]
 }

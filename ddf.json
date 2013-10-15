@@ -76,7 +76,7 @@
                         "description" : "organization for DDF"
                     }
                   ],
-                  "flavorId": "2"
+                  "flavorId": "medium"
                 }
             ]
         }

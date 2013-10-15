@@ -7,7 +7,7 @@
             ],
             "applications": [
               {
-		  "priority":1,
+		            "priority":1,
                   "name": "ozone::ozone",
                   "description": "",
                   "configurations": [
@@ -27,7 +27,7 @@
                         "description" : "HTTP port of OWF"
                     },
                   ],
-                  "flavorId": "2"
+                  "flavorId": "medium"
                 }
             ]
         }
